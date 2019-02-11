@@ -1,7 +1,6 @@
 # Responsive HTML Email
 
-![Email template screenshot](screenshots/wf_desktop_ss.png)
-
+![Email template screenshot](screenshots/desktop_ss.png)
 
 <h2>Day 004: 
 <a href="https://venuslangmuir.github.io/wells-fargo/">Wells Fargo</a></h2>
