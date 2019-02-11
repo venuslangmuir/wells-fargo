@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WF | Meet the Banker</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <style type="text/css">
+      /* CLIENT-SPECIFIC STYLES */
+      body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+      table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+      img { -ms-interpolation-mode: bicubic; }
+
+      /* RESET STYLES */
+      img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+      table { border-collapse: collapse !important; }
+      body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
+
+      @media screen and (max-width: 600px) {
+          .wrapper,
+          .footer-links {
+            border-radius: 0 0 0 0 !important;
+          }
+          .left-column,
+          .right-column {
+              width: 100% !important;    
+          }
+
+          .right-column td {
+            padding: 20px 10px 20px 10px !important;
+          }
+
+          .right-column td h1 {
+            text-align: center !important;
+            padding: 0 0 20px 0 !important;
+            width: 250px !important;
+            font-size: 20px !important;
+            line-height: 26px;
+          }
+
+          .right-column .button {
+            padding: 10px 30px 10px 30px !important;
+            font-size: 16px !important;
+            font-weight: normal !important;
+          }
+      }
+
+      @media screen and (max-width: 460px) {
+        .preheader-links a {
+          display: block;
+        }
+        .preheader-links .mobile-hide {
+          display: none;
+        }
+      }
+
+      @media screen and (max-width: 375px) {
+        .footer-links a {
+          display: block;
+        }
+        .footer-links .mobile-hide {
+          display: none;
+        }
+      }
+
+
+    </style>
+  </head>
+
+  <body style="margin: 0 !important; padding: 0 !important; background-color: #333333; ">
+    <!-- PREVIEW TEXT -->
+    <div style="display: none; max-height: 0; overflow: hidden;">
+      Meet with a banker at a time that's convenient for you.
+    </div>
+    <!-- PREVIEW TEXT SPACER, just incase the preview text is too short -->
+    <div style="display: none; max-height: 0; overflow: hidden;">
+      &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+    </div>
+
+    <!-- Pseudo Body Table -->
+    <table class="body" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" bgcolor="#333333" style="margin:0;padding:0;min-width:100%;background-color:#333333;">
+      <tr>
+        <td style="padding: 10px 0;">
+          <!-- Wrapper Table -->
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="max-width: 600px;">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0"
+            cellpadding="0" width="600">
+                <tr>
+                    <td align="center" valign="top" width="600">
+            <![endif]-->
+
+            <!-- Preheader Links -->
+            <tr>
+              <td class="preheader-links" align="center" style="color:#999999; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 300; line-height: 24px; padding: 10px 30px 16px 30px;">
+                <a href="#" target="_blank" style="color: #999999;"> Schedule now</a>  <span class="mobile-hide" style="color: #111111;">&nbsp;&nbsp;|&nbsp;&nbsp;</span> <a href="#" target="_blank" style="color: #999999;">Add us in your address book</a>  <span class="mobile-hide" style="color: #111111;">&nbsp;&nbsp;|&nbsp;&nbsp;</span> <a href="#" target="_blank" style="color: #999999;">View in browser</a>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="wrapper" align="center" valign="top" width="100%" bgcolor="#ffffff" style="color: #333333; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; border-radius: 5px 5px 5px 5px; margin: 0 0 0 0; padding: 0 0 0 0;">
+                <!-- Content Table -->
+                <table class="email-container" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <!-- LOGO MODULE -->
+                  <tr>
+                    <td align="left" style="padding: 10px 10px 10px 10px;">
+                      <a href="#">
+                          <img src="images/wf_logo_color.png" alt="" border="0" width="180" style="display: block; color: #111111;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 32px; width: 100%; max-width: 180px; min-width: 100px;">
+                      </a>
+                    </td>
+                  </tr>
+
+                  <!-- BANNER MODULE -->
+                  <!-- <tr>
+                    <td align="left" bgcolor="#ce4c00" height="175" style="color:#333333; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 24px; padding: 10px 40px 0px 40px;">
+                      &nbsp;
+                    </td>
+                  </tr> -->
+
+                  <!-- TWO COLUMN SECTION -->
+                  <tr>
+                      <td class="two-column" bgcolor="#ce4c00" align="center" valign="top" style="padding: 0 0 0 0;">
+                          <!-- TWO COLUMNS -->
+                          <table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+                              <tr>
+                                  <td>
+                                      <!-- LEFT COLUMN -->
+                                      <table class="left-column" border="0" cellpadding="0" cellspacing="0" width="50%" align="left" role="presentation">
+                                          <tr>
+                                              <td>
+                                                  <table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+                                                      <tr>
+                                                          <!-- CONTENT -->
+                                                          <td align="center" style="padding: 0 0 0 0;">
+                                                              <a href="#">
+                                                                  <img src="images/family.jpg" alt="Visit San Jose California" border="0" width="320" style="display: block; color: #111111;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 32px; width: 100%; max-width: 100%; min-width: 200px; display: block;">
+                                                              </a>
+                                                          </td>
+                                                      </tr>
+                                                  </table>
+                                              </td>
+                                          </tr>
+                                      </table><!-- /LEFT COLUMN -->
+
+                                      <!-- RIGHT COLUMN -->
+                                      <table class="right-column" border="0" cellpadding="0" cellspacing="0" width="40%" align="left" role="presentation">
+                                          <tr>
+                                              <td>
+                                                  <table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+                                          
+                                                      <!-- CONTENT -->
+                                                      <tr>
+                                                          <td align="center" style="color:#ffffff; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 300; line-height: 22px; padding: 20px 10px 10px 20px;">
+                                                              <h1 style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; text-align: left; margin: 0 0 0 0; padding: 0 0 45px 0; font-weight: normal;">Schedule an appointment to meet with a banker </h1>
+                                                              <!--[if (gte mso 9)|(IE)]>
+                                                                <br><br>
+                                                              <![endif]-->
+                                                              <a class="button" style="display: inline-block; text-decoration: none; margin: 0 0 0 0; padding: 5px 14px 5px 14px; color: #ffffff; background-color: #cc0000; border: 2px #ffffff solid; font-size: 14px; letter-spacing: 1px;" href="#">Make an Appointment</a>
+                                                          </td>
+                                                      </tr>
+                                          
+                                                  </table>
+                                              </td>
+                                          </tr>
+                                      </table>
+                                      <!-- RIGHT COLUMN -->
+                                  </td>
+                              </tr>
+                          </table>
+                      </td>
+                  </tr>
+                  <!-- /TWO COLUMN SECTION -->
+
+                  <!-- COPY MODULE -->
+                  <tr>
+                    <td align="left" style="color:#333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 300; line-height: 22px; padding: 30px 40px 0px 40px;">
+                      Let's work together to help you meet your financial goals. As a Wells Fargo customer, you can schedule an appointment to meet with a banker and discuss an existing account, open a new account, or get help prioritizing your goals with a personal financial review.
+                    </td>
+                  </tr>
+
+                  <!-- COPY MODULE -->
+                  <tr>
+                    <td align="left" style="color:#333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 300; line-height: 22px; padding: 25px 30px 0px 40px;">
+                      <h3 style="font-size: 20px; font-weight: 300; margin: 0 0 0 0; padding: 0 0 0 0;">It’s as easy as 1-2-3:</h3>
+                      <ol style="margin: 0 0 0 20px; padding: 5px 0px 5px 10px;">
+                        <li><strong>Make an appointment</strong> for a day and time that's convenient for you.</li>
+                        <li><strong>We'll give you a courtesy call</strong> to confirm and review your upcoming appointment.</li>
+                        <li>When you arrive, we'll be ready to answer your questions and <strong>talk about what's important to you</strong>.</li>
+                      </ol>
+                       
+                    </td>
+                  </tr>
+
+                  <!-- CTA MODULE -->
+                  <tr>
+                    <td align="center" style="padding: 30px 10px 0px 10px;">
+                      <a href="#">
+                          <img src="images/btn_make_an_appointment.jpg" alt="Make an appointment;" border="0" width="286" style="display: block; color: #ffffff; background-color: #ce4c00; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 24px; width: 100%; max-width: 286px; min-width: 100px;">
+                      </a>
+                    </td>
+                  </tr>
+
+                  <!-- COPY MODULE -->
+                  <tr>
+                    <td align="center" style="color:#333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 300; line-height: 16px; padding: 5px 10px 40px 10px;">
+                        Not ready for an appointment?<br>
+                        <strong>Bookmark the page</strong> for easy future reference<br>
+                        when you want to meet with a banker.
+                    </td>
+                  </tr>
+
+                  <!-- Footer Background Image -->
+                  <tr>
+                    <td align="left" style="padding: 0 0 0 0;">
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                        <tr>
+                          <td align="center" style="padding: 0 0 0 0;">
+                            <a href="#">
+                                <img src="images/left_half_coach.jpg" alt="" border="0" width="300" style="display: block; color: #111111;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 32px; width: 100%; max-width: 100%; min-width: 100px; ">
+                            </a>
+                          </td>
+                          <td align="center" style="padding: 0 0 0 0;">
+                            <a href="#">
+                                <img src="images/right_half_coach.jpg" alt="" border="0" width="300" style="display: block; color: #111111;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 32px; width: 100%; max-width: 100%; min-width: 100px; ">
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+
+                  <!-- SOCIAL LINKS -->
+                  <tr>
+                    <td class="footer-links" bgcolor="#706e6f" style="border-radius: 0 0 5px 5px; padding: 0 0 0 0;">
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="200">
+                        <!-- IMAGE MODULE -->
+                        <tr>
+                          <td align="center" style="padding: 0 10px 0 10px;">
+                            <a href="#">
+                                <img src="images/facebook.jpg" alt="facebook icon" border="0" width="39" style="display: block; color: #ffffff;font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 12px; width: 100%; max-width: 100%; min-width: 20px; ">
+                            </a>
+                          </td>
+                          <td align="center" style="padding: 0 10px 0 10px;">
+                            <a href="#">
+                                <img src="images/twitter.jpg" alt="twitter icon" border="0" width="43" style="display: block; color: #ffffff;font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 12px; width: 100%; max-width: 100%; min-width: 20px; ">
+                            </a>
+                          </td>
+                          <td align="center" style="padding: 0 10px 0 10px;">
+                            <a href="#">
+                                <img src="images/pinterest.jpg" alt="pinterest icon" border="0" width="67" style="display: block; color: #ffffff;font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 12px; width: 100%; max-width: 100%; min-width: 20px; ">
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  
+                  
+                </table>
+              </td>
+            </tr>
+
+            <!-- Footer Links -->
+            <tr>
+              <td class="footer-links" align="left" style="color:#999999; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 300; line-height: 24px; padding: 10px 30px 0px 30px;">
+                <a href="#" target="_blank" style="color: #999999;"> Update Email Address</a>  <span class="mobile-hide" >&nbsp;&nbsp;|&nbsp;&nbsp;</span> <a href="#" target="_blank" style="color: #999999;"> Privacy Policy</a>  <span class="mobile-hide" >&nbsp;&nbsp;|&nbsp;&nbsp;</span> <a href="#" target="_blank" style="color: #999999;">Fraud Information</a>
+              </td>
+            </tr>
+
+            <!-- FOOTER FINE PRINTS -->
+            <tr>
+              <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                    <tr>
+                        <td align="left" style="color:#999999; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 300; line-height: 16px; padding: 0px 30px 0px 30px;">
+                            <p style="padding: 10px 0px 10px 0px; margin: 0px 0px 0px 0px;">This is a noncommercial message sent to you by Wells Fargo as part of your account relationship.<br>
+                            If you would prefer not to receive future Wells Fargo emails, simply <a href="#" style="color:#999999;">unsubscribe here</a>.</p>
+                            
+                            </p style="padding: 0px 0px 0px 0px; "><strong>HOW TO CONTACT US</strong><br>
+                            If you have questions, please do not reply to this message. <br>
+                            For Wells Fargo Online® customers: <a href="#" target="_blank" style="color: #999999;">Sign On</a> and select <strong>Contact&nbsp;Us</strong>.<br>
+                            All other inquiries, visit our <a href="#" target="_blank" style="color: #999999;">Customer Service</a> page.</p>
+                              
+                            </p><strong>Please direct all written correspondence to:</strong> <br>
+                            Wells Fargo Online Customer Service <br>
+                            P.O. Box 4132, Concord, CA 94524 <br>
+                            MAC #A0303-057</p>
+                              
+                            </p>Wells Fargo & Company Headquarters: <br>
+                            420 Montgomery St., San Francisco, CA 94104</p>
+                              
+                            </p>© 2015 Wells Fargo Bank, N.A. All rights reserved. <br>
+                            Member FDIC. NMLSR ID 399801. <br>
+                            Equal Housing Lender.</p>
+                          </td>
+                        
+                    </tr>
+                    <!-- <tr>
+                        <td align="center" valign="bottom" style="color:#999999; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 300; line-height: 16px; padding: 0px 40px 20px 40px;">
+                            <a href="#">
+                                <img src="images/wells_fargo_footer_logo_bw.png" alt="" border="0" width="50" style="display: block; color: #111111;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 32px; width: 100%; max-width: 50px; min-width: 20px; background-color: #999999; padding: 10px 10px 10px 10px;">
+                            </a>
+                        </td>
+                    </tr> -->
+                </table>
+              </td>
+            </tr>
+            <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                </tr>
+            </table>
+            <![endif]-->
+          </table>
+          <!-- /Wrapper Table -->
+        </td>
+      </tr>
+    </table>
+    <!-- /Pseudo Body Table -->
+  </body>
+</html>
